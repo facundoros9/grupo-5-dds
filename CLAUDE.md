@@ -8,4 +8,4 @@
   exactos para probar en GitHub Codespaces. Recordar que cada terminal nueva arranca en la raíz y
   hay que hacer `cd m6-viajes`.
 - Antes de commitear, correr desde `m6-viajes/`: `npm run typecheck`, `npm test`,
-  `npm run test:postgres` (si hay PostgreSQL) y `npm run contratos:validar`.
+  `npm run test:infra` (con `npm run infra:levantar`) y `npm run contratos:validar`.
